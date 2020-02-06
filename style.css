@@ -1026,6 +1026,11 @@ img {
     }
 
 @media (max-width: 580px) {
+  .primary-nav-up ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .primary-nav-up li {
       margin-right: 20px
@@ -1034,7 +1039,7 @@ img {
 
 .primary-nav-up li:nth-child(3){
     float: right;
-    margin-right: 0;
+    margin-right: 20px;
   }
 
 .primary-nav-up li:nth-child(3)::after {
@@ -1045,6 +1050,7 @@ img {
 
 .primary-nav-up li:nth-child(4){
     float: right;
+    margin: 0;
   }
 
 .primary-nav-up li:nth-child(4)::after {
